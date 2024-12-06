@@ -1,0 +1,581 @@
+body {
+    background-color: #333333;
+    
+}
+
+.fix-hover-color:hover{
+ color:#ffa500;   
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: #ffa500;
+}
+.custom-bg {
+    background-color: #333333 !important;
+}
+.logo-idioma{
+    width: 35%;
+    min-width: 30px;
+    max-width: 80px;
+}
+
+.idioma{
+    width: 100%;
+    text-align: center;    
+}
+.ml-auto {
+    margin-left: auto;
+}
+
+.fix-width {
+    width: 40%;
+}
+
+.fix-display {
+    display: inline;
+}
+
+.fix-font-family {
+    font-family: Montserrat;
+}
+
+.fix-margin {
+    margin: 0;
+}
+
+.section-title {}
+
+.fix-font-family-body {
+    font-family: Roboto;
+
+}
+
+.seccionuno {
+    height: 100vh;
+    scroll-margin-top: 120px;
+}
+
+.secciondos {
+    height: auto;
+    scroll-margin-top: 120px;
+    margin-bottom: 17%;
+}
+.seccion-proyectos{
+    /* height: 100vh; */
+    scroll-margin-top: 15vh;
+     margin-bottom: 17%;
+}
+.fix-pointer{
+    cursor: pointer;
+}
+.col-imagen-descripcion{
+    padding: 2%;
+    margin-bottom: 1%;
+}
+.img-deatlles-proyecto{
+    width: 100%;
+}
+.row-tecnologias-detalle-proyecto{
+    width: 68%;
+    margin-bottom: 7%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fix-width-detail-tech{
+    width: 85%;
+}
+.row-compania{
+    margin-bottom: 7%;
+    background-color: #e7e7e7;
+}
+
+.inherit-h {
+    height: inherit;
+}
+
+.height-100 {
+    height: 100%;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.primaryText {
+
+    margin-top: 8%;
+    text-align: center;
+    font-size: clamp(38px, 7vw, 5.5rem);
+
+}
+
+.secondaryText {
+    margin-top: 2%;
+    text-align: center;
+    font-size: clamp(38px, 7vw, 5.5rem);
+
+}
+.title-slogan{
+    font-size: clamp(25px,10vw,5.5rem);
+}
+.slogan{
+
+    font-size: clamp(25px,10vw,5.5rem);
+}
+.primary-color-font{
+    color: #333333;
+}
+.secondary-color-font {
+    color: #e7e7e7;
+}
+.emphasis-color-font{
+    color: #ffa500;
+}
+.skill-clasification{
+    margin-top: 2%;
+}
+
+.animate-text {
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 16ch;
+    animation: escrituraNombre 1.3s steps(16), parpadeo .5s infinite step-end alternate;
+    overflow: hidden;
+}
+
+.animate-slogan {
+    display: block;
+    white-space: nowrap;
+    border-right: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 0ch;
+    animation: escrituraEslogan 1.3s steps(21) 1.3s forwards, parpadeoSlogan 0.5s infinite  step-end alternate 1.3s;
+    overflow: hidden;
+}
+
+.animate-bio {
+    display: block;
+    word-wrap: break-word;
+    /* white-space: nowrap; */
+    /* border-right: 4px solid; */
+    /* width: 518ch; */
+    /* animation: escritura 2s steps(518), parpadeo .5s infinite step-end alternate; */
+    overflow: hidden;
+}
+
+.seccion-habilidades{
+    scroll-margin-top: 15vh;
+    height: auto;
+    
+
+}
+.bio-container{
+    width: 50%;
+    margin-top: 3%;
+    font-size: 1.5rem;
+    font-size: clamp(9px, 3vw, 1.5rem);
+}
+.margin-top-hsection{
+ 
+}
+.fix-paraph-h{
+    height: auto;
+}
+.transparent-bg{
+    background-color: transparent;
+}
+.secondary-color-bg{
+    background-color: #e7e7e7;
+}
+
+.skill-item{
+
+    width: 35%;
+    /* max-height: 153.53px; */
+    padding: 0;
+    margin: 0;
+    height: 28%;
+    min-width: 145px;
+}
+.sub-col-skill{
+    padding: 0;
+}
+.skill-image{
+    width: 80%;
+    margin-left: 22%;
+    
+}
+.skill-image:hover{
+    animation: scaled 0.5s 0.2;
+}
+.skill-image:active{
+    animation: scaled 0.5s 0.2;
+}
+.sub-col-level:hover{
+    animation: scaled 0.5s 0.2;
+}
+.sub-col-level{
+    padding: 0;
+}
+.skill-1{
+    margin-top: 3%;
+}
+.tag-skill-level{
+    padding: 0;
+    font-size: clamp(23px, 5vw, 3rem);
+    box-sizing: border-box;
+}
+.separator-container{
+    background-color: transparent;
+    padding: 0;
+    
+}
+.separator{
+    width: 3%;
+    background-color: #ffa500;
+    height: 100%;
+    margin: auto;
+    animation: cambiarfondo 1s infinite linear alternate;
+}
+.skill-level-value{
+    box-sizing: border-box;
+    font-size: clamp(15px, 3vw, 1.5rem)!important;
+        
+}
+.margin-top-nthskill{
+    margin-top: 2%;
+}
+.soft-skills-container{
+    width: 100%;
+}
+.soft-skill-item{
+    width: 50%;
+    /* max-height: 153.53px; */
+    padding: 0;
+    margin: 0;
+    height: 3rem;
+    min-width: 145px;
+    box-sizing:border-box
+}
+.ptosk{
+    margin-left: 7%;
+}
+.reset-padding-right{
+    padding-left: 0;
+}
+.reset-padding-left{
+    padding-right: 0;
+}
+ 
+.circle{
+    height: 0.9rem;
+    width: 0.9rem;
+    background-color: #333333;
+    border-radius: 50%;
+    margin: auto;
+    animation: cambiarfondo2 1s infinite linear alternate;
+}
+.soft-skill-text-col{
+    padding-top: 4%;
+}
+
+.manual-center{
+    margin: auto;
+}
+.fix-margin-left{
+    margin-left: 31%;
+}
+.margin-title{
+    margin-top: 2%;
+}
+.fix-card-width{
+    width: 50%;
+}
+.margin-top-proy-section{
+    margin-top: 3%;
+}
+.margin-to-section-title{
+    margin-top: 2%;
+}
+.htmlcolor{
+    background-color: #e44d26!important;
+}
+.csscolor{
+    background-color: #1172b8!important;
+}
+.netcolor{
+    background-color: #512BD4!important;
+}
+.sqlcolor{
+    background-color: #006dc0!important;
+}
+.title-card-font-responsive{
+    font-size: clamp(9px,1.25rem,1.7rem);
+}
+.body-card-font-responsive{
+    font-size: clamp(6px,1rem,1.3rem);
+}
+.badge-font-responsive{
+    font-size: clamp(0.4em,0.6em,0.75em);
+}
+.scale-hover:hover{
+    
+    animation: scalecard .1s 1 linear forwards;
+}
+.seccion-filosofia{
+    width: 100%;
+    scroll-margin-top: 9vh;
+    margin-bottom: 17%;
+}
+.margin-top-phil-section{
+    margin-top: 3%;
+}
+.fix-tabs-width{
+    width: 50%;
+}
+.tab-container{
+    background-color: #e7e7e7;
+    width: 50%;
+    margin-top: 2%;
+}
+.tab-element{
+    background-color: transparent;
+}
+.filosofia-container{
+    background-color: transparent;
+    width: 100%;
+}
+
+/* Style the tab */
+.tab {
+    margin-top: 2%;
+    width: 100%;
+    overflow: hidden;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+    background-color: #e7e7e7;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #e7e7e7;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+     
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    width: 100%;
+    display: none;
+    padding: 6px 12px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top: 1px solid #ccc;
+    border-top: none;
+    background-color: #e7e7e7;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .title-philosophy-item{
+    width: 100%;
+  }
+  .philosophy-text{
+    width: 100%;
+  }
+
+  .seccion-contacto{
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .margin-top-cont-section{
+    margin-top: 3%;
+  }
+  .form-container{
+    width: 60%;
+    box-sizing: border-box;
+  }
+  .contact-form{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 7%;
+    background-color: #333333;
+  }
+  .contact-input{
+    width: 100%;
+    background-color: #e7e7e7;
+  }
+  .contact-input::placeholder{
+    color: #333333;
+  }
+  .form-row{
+    margin-bottom: 4%;
+  }
+
+  .footer{
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .footer-image{
+    width: 7%;
+  }
+  .github-footer-icon{
+    width: 16%;
+  }
+  .responsive-text{
+    font-size: clamp(5px,6vw,1.0rem);
+  }
+  /*  ESTILOS BOTON  DE WHATS APP */
+  .whatsappIconContainer {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 80px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: transparent; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    min-width: 48px;
+  }
+  
+  .whatsappIconContainer:hover {
+    animation: scalecard 0.2s 1 linear forwards ;
+  }
+
+  .topButtonContainer {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 14px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: transparent; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    width: 6%;
+    min-width: 48px;
+    max-width: 100px;
+  }
+  
+  .topButtonContainer:hover {
+    animation: scalecard 0.2s 1 linear forwards ;
+  }
+  .top-button-icon{
+    min-width: 48px;
+    max-width: 100px;
+  }
+  .download-button{
+    margin-left: 2%;
+    background-color: #ffa500;
+    font-family: roboto;
+  }
+
+@media (max-width:830px) {
+    .skill-text{
+        margin-right: 14%;
+    }    
+}
+
+
+@keyframes escrituraNombre {
+    0% {
+        width: 0;
+    }
+}
+
+@keyframes escrituraEslogan {
+    from {
+        width: 0ch;
+    }
+    to{
+        width: 21ch;
+    }
+}
+
+
+
+@keyframes parpadeo {
+    0%{
+        border-right: 4px solid;
+    }
+    50% {
+        border: transparent;
+    }
+    100%{
+        border: none;
+    }
+}
+@keyframes parpadeoSlogan {
+    1%{
+        border-right: 4px solid;
+    }
+    50%{
+        border: transparent;
+    } 
+}
+
+@keyframes scaled {
+    50%{
+        scale: 0.9;
+    }
+}
+
+@keyframes scalecard {
+    100%{
+        scale:1.1;
+    }
+}
+@keyframes cambiarfondo{
+    from{
+        background-color: #333333;
+    }
+    to{
+        background-color: #ffa500;
+    }
+}
+
+@keyframes cambiarfondo2{
+    from{
+        background-color: #333333;
+    }
+    to{
+        background-color: #1eff00;
+    }
+}

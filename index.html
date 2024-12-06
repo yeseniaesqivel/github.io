@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+    <link rel="stylesheet" href="./css/baseStyles.css">
+    <link rel="shortcut icon" href="./resources/favicon.ico" type="image/x-icon">
+    <title>Yesenia Esquivel</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navBar">
+    <nav id="navBar" class="navbar sticky-top navbar-expand-md bg-body-tertiary custom-bg" data-bs-theme="dark">
+        <div id="mainNavContainer" class="container ">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <a class="navbar-brand d-flex flex-wrap d-none d-md-block d-lg-block d-xl-block d-xxl-block  fix-font-family"
+                    href="#">
+                    <div class="d-flex justify-content-center align-items-center flex-wrap">
+                        <img src="./resources/onlylogomini.png" class="fix-width" alt="Bootstrap">
+                        <p class="fix-margin">Yesenia Esquivel</p>
+                    </div>
+
+                </a>
+                <ul id="navList" class="navbar-nav  ml-auto fix-font-family">
+                    <li class="nav-item">
+                        <a class="nav-link active fix-active-color fix-hover-color" aria-current="page" href="#seccion1"
+                            aria-disabled="false" data-title="inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fix-hover-color" href="#seccion2" aria-disabled="false"
+                            data-title="acerca">Acerca</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fix-hover-color" href="#secccionHabilidades" aria-disabled="false"
+                            data-title="habilidades">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fix-hover-color" href="#seccionProyectos" aria-disabled="false"
+                            data-title="proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fix-hover-color" href="#seccionFilosofia" aria-disabled="false"
+                            data-title="filosofia">Filosofía</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fix-hover-color" href="#seccionContacto" aria-disabled="false" data-title="contacto">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="downloadLink">
+                            <button class="btn btn btn-warning download-button" type="submit">Descargar CV</button>
+                        </a>
+                    </li>
+                    <li id="liLanguaje" class="nav-item d-flex justify-content-center align-items-center flex-wrap secondary-color-font">
+                        <div id="logoIdiomaContainer" class="d-flex justify-content-center align-items-center idioma-logo-container">
+                            <img src="./resources/idioma.svg" class="logo-idioma" alt="change languaje logo">
+                        </div>
+                          <div id="divIdioma" class="idioma">ES</div>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <main class="container-fluid">
+        <section id="seccion1" class="seccionuno">
+            <div class="d-flex flex-column inherit-h justify-content-center">
+                <div class="fix-font-family-body height-100 secondary-color-font">
+                    <p id="titleSlogan" class="primaryText width-100 title-slogan">
+                        <span id="animatedSpanTitle" class="animate-text">Yesenia Esquivel</span>
+                    </p>
+                    <p id="slogan" class="secondaryText width-100 slogan"><span id="anmatedSpanSlogan"
+                            class="animate-slogan">Codificando el futuro</span> </p>
+                </div>
+            </div>
+        </section>
+        <section id="seccion2" class="d-flex flex-column justify-content-center align-items-center secciondos">
+            <h2 class="section-title fix-font-family secondary-color-font">Acerca</h2>
+            <div class="d-flex flex-wrap secondary-color-font inherit-h   bio-container justify-content-center">
+
+                <p id="bio" class="width-100 bio-paraph fix-paraph-h">
+                    <span id="anitatedBio" class="invisible animate__animated animate-bio" data-typeitem="bio">
+                        Soy Yesenia Maria Esquivel Benavides,desarrolladora web fullstack de Costa
+                        Rica.
+                        Soy una entusiasta de la tecnologia y me encantan los retos por lo que
+                        me apasiona resolver problemas y trabajar en equipo,lo que me ha llevado a participar en
+                        diversos
+                        proyectos.
+                        Si bien me dedico al desarrollo fullstack, mi mas grande sueño es convertirme en
+                        especialista en
+                        frontend.
+                    </span>
+                </p>
+            </div>
+        </section>
+        <section id="secccionHabilidades"
+            class="d-flex flex-column justify-content-center align-items-center seccion-habilidades">
+            <h2 class="section-title fix-font-family secondary-color-font margin-top-hsection">Habilidades</h2>
+            <h3 class="section-title fix-font-family emphasis-color-font skill-clasification">Técnicas</h3>
+            <div id="skill1"
+                class="animate__animated invisible  container-fluid rounded skill-item row secondary-color-bg skill-1"
+                data-typeitem="tech-skill">
+                <div
+                    class="col-5 d-flex justify-content-center align-items-center sub-col-skill transparent-bg text-center">
+                    <img src="./resources/html5.svg" class="skill-image" alt="logo de html5">
+                </div>
+                <div id="separatorContainer" class="col-2 separator-container transparent-bg">
+                    <div id="separator" class="separator"></div>
+                </div>
+                <div
+                    class="col-5 d-flex flex-column sub-col-level transparent-bg justify-content-center align-items-center">
+                    <div id="skillName" class="d-flex justify-content-center align-items-end tag-skill-level col"><span
+                            class="skill-label-text">Nivel</span></div>
+                    <div id="skilLevel" class="d-flex justify-content-center align-items-start skill-level-value col">
+                        <span class="skill-text">Avanzado</span>
+                    </div>
+                </div>
+            </div>
+            <div id="skill2"
+                class="animate__animated invisible container-fluid rounded skill-item row secondary-color-bg margin-top-nthskill"
+                data-typeitem="tech-skill">
+                <div
+                    class="col-5 d-flex justify-content-center align-items-center sub-col-skill transparent-bg text-center">
+                    <img src="./resources/css.svg" class="skill-image" alt="logo de html5">
+                </div>
+                <div id="separatorContainer" class="col-2 separator-container transparent-bg">
+                    <div id="separator" class="separator"></div>
+                </div>
+                <div
+                    class="col-5 d-flex flex-column sub-col-level transparent-bg justify-content-center align-items-center">
+                    <div id="skillName" class="d-flex justify-content-center align-items-end tag-skill-level col"><span
+                            class="skill-label-text">Nivel</span></div>
+                    <div id="skilLevel" class="d-flex justify-content-center align-items-start skill-level-value col">
+                        <span class="skill-text">Avanzado</span>
+                    </div>
+                </div>
+            </div>
+            <div id="skill3"
+                class="animate__animated invisible container-fluid rounded skill-item row secondary-color-bg margin-top-nthskill"
+                data-typeitem="tech-skill">
+                <div
+                    class="col-5 d-flex justify-content-center align-items-center sub-col-skill transparent-bg text-center">
+                    <img src="./resources/js.svg" class="skill-image" alt="logo de html5">
+                </div>
+                <div id="separatorContainer" class="col-2 separator-container transparent-bg">
+                    <div id="separator" class="separator"></div>
+                </div>
+                <div
+                    class="col-5 d-flex flex-column sub-col-level transparent-bg justify-content-center align-items-center">
+                    <div id="skillName" class="d-flex justify-content-center align-items-end tag-skill-level col"><span
+                            class="skill-label-text">Nivel</span></div>
+                    <div id="skilLevel" class="d-flex justify-content-center align-items-start skill-level-value col">
+                        <span class="skill-text">Avanzado</span>
+                    </div>
+                </div>
+            </div>
+            <div id="skill4"
+                class="animate__animated invisible container-fluid rounded skill-item row secondary-color-bg margin-top-nthskill"
+                data-typeitem="tech-skill">
+                <div
+                    class="col-5 d-flex justify-content-center align-items-center sub-col-skill transparent-bg text-center">
+                    <img src="./resources/java.svg" class="skill-image" alt="logo de html5">
+                </div>
+                <div id="separatorContainer" class="col-2 separator-container transparent-bg">
+                    <div id="separator" class="separator"></div>
+                </div>
+                <div
+                    class="col-5 d-flex flex-column sub-col-level transparent-bg justify-content-center align-items-center">
+                    <div id="skillName" class="d-flex justify-content-center align-items-end tag-skill-level col"><span
+                            class="skill-label-text">Nivel</span></div>
+                    <div id="skilLevel" class="d-flex justify-content-center align-items-start skill-level-value col">
+                        <span class="skill-text">Avanzado</span>
+                    </div>
+                </div>
+            </div>
+            <div id="skill5"
+                class="animate__animated invisible container-fluid rounded skill-item row secondary-color-bg margin-top-nthskill"
+                data-typeitem="tech-skill">
+                <div
+                    class="col-5 d-flex justify-content-center align-items-center sub-col-skill transparent-bg text-center">
+                    <img src="./resources/net.svg" class="skill-image" alt="logo de html5">
+                </div>
+                <div id="separatorContainer" class="col-2 separator-container transparent-bg">
+                    <div id="separator" class="separator"></div>
+                </div>
+                <div
+                    class="col-5 d-flex flex-column sub-col-level transparent-bg justify-content-center align-items-center">
+                    <div id="skillName" class="d-flex justify-content-center align-items-end tag-skill-level col"><span
+                            class="skill-label-text">Nivel</span></div>
+                    <div id="skilLevel" class="d-flex justify-content-center align-items-start skill-level-value col">
+                        <span class="skill-text">Avanzado</span>
+                    </div>
+                </div>
+            </div>
+            <div id="skill6"
+                class="animate__animated invisible container-fluid rounded skill-item row secondary-color-bg margin-top-nthskill"
+                data-typeitem="tech-skill" data-typeitem="tech-skill">
+                <div
+                    class="col-5 d-flex justify-content-center align-items-center sub-col-skill transparent-bg text-center">
+                    <img src="./resources/sqlserver.svg" class="skill-image" alt="logo de html5">
+                </div>
+                <div id="separatorContainer" class="col-2 separator-container transparent-bg">
+                    <div id="separator" class="separator"></div>
+                </div>
+                <div
+                    class="col-5 d-flex flex-column sub-col-level transparent-bg justify-content-center align-items-center">
+                    <div id="skillName" class="d-flex justify-content-center align-items-end tag-skill-level col"><span
+                            class="skill-label-text">Nivel</span></div>
+                    <div id="skilLevel" class="d-flex justify-content-center align-items-start skill-level-value col">
+                        <span class="skill-text">Avanzado</span>
+                    </div>
+                </div>
+            </div>
+            <h3 class="section-title fix-font-family emphasis-color-font skill-clasification">Blandas</h3>
+            <div class="d-flex flex-column soft-skills-container row-gap-5 margin-title">
+                <div class="row row-gap-5">
+                    <div class="col d-flex justify-content-center">
+                        <div id="soft-skill1"
+                            class="animate__animated ptosk d-flex invisible soft-skill-item  container-fluid rounded skill-item row secondary-color-bg skill-1"
+                            data-typeitem="soft-skill">
+
+                            <div
+                                class="col-1 d-none d-md-block d-lg-block d-xl-block d-xxl-block d-flex justify-content-center align-content-center reset-padding-right reset-padding-left">
+                                <div class="circle">
+                                </div>
+                            </div>
+                            <div class="col-11 soft-skill-text-col">
+                                <span class="manual-center text-center">
+                                    Liderazgo
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="soft-skill2" class="col d-flex justify-content-center">
+                        <div id="soft-skill1"
+                            class="animate__animated ptosk d-flex invisible soft-skill-item  container-fluid rounded skill-item row secondary-color-bg skill-1"
+                            data-typeitem="soft-skill">
+
+                            <div
+                                class="col-1 d-none d-md-block d-lg-block d-xl-block d-xxl-block d-flex justify-content-center align-content-center reset-padding-right reset-padding-left">
+                                <div class="circle">
+                                </div>
+                            </div>
+                            <div class="col-11 soft-skill-text-col">
+                                <span class="manual-center text-center">
+                                    Trabajo en equipo
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-gap-5">
+                    <div class="col d-flex justify-content-center">
+                        <div id="soft-skill3"
+                            class="animate__animated ptosk d-flex invisible soft-skill-item  container-fluid rounded skill-item row secondary-color-bg skill-1"
+                            data-typeitem="soft-skill">
+
+                            <div
+                                class="col-1 d-none d-md-block d-lg-block d-xl-block d-xxl-block d-flex justify-content-center align-content-center reset-padding-right reset-padding-left">
+                                <div class="circle">
+                                </div>
+                            </div>
+                            <div class="col-11 soft-skill-text-col">
+                                <span class="manual-center text-center">
+                                    Asertividad
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                        <div id="soft-skill4"
+                            class="animate__animated ptosk d-flex invisible soft-skill-item  container-fluid rounded skill-item row secondary-color-bg skill-1"
+                            data-typeitem="soft-skill">
+
+                            <div
+                                class="col-1 d-none d-md-block d-lg-block d-xl-block d-xxl-block d-flex justify-content-center align-content-center reset-padding-right reset-padding-left">
+                                <div class="circle">
+                                </div>
+                            </div>
+                            <div class="col-11 soft-skill-text-col">
+                                <span class="manual-center text-center">
+                                    Proactividad
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-gap-5">
+                    <div class="col d-flex justify-content-center">
+                        <div id="soft-skill5"
+                            class="animate__animated ptosk d-flex invisible soft-skill-item  container-fluid rounded skill-item row secondary-color-bg skill-1"
+                            data-typeitem="soft-skill">
+
+                            <div
+                                class="col-1 d-none d-md-block d-lg-block d-xl-block d-xxl-block d-flex justify-content-center align-content-center reset-padding-right reset-padding-left">
+                                <div class="circle">
+                                </div>
+                            </div>
+                            <div class="col-11 soft-skill-text-col">
+                                <span class="manual-center text-center">
+                                    Autodidactismo
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                        <div id="soft-skill6"
+                            class="animate__animated ptosk d-flex invisible soft-skill-item  container-fluid rounded skill-item row secondary-color-bg skill-1"
+                            data-typeitem="soft-skill">
+
+                            <div
+                                class="col-1 d-none d-md-block d-lg-block d-xl-block d-xxl-block d-flex justify-content-center align-content-center reset-padding-right reset-padding-left">
+                                <div class="circle">
+                                </div>
+                            </div>
+                            <div class="col-11 soft-skill-text-col">
+                                <span class="manual-center text-center">
+                                    Manejo del estres
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="seccionProyectos" class="seccion-proyectos">
+            <h2 class="section-title fix-font-family secondary-color-font margin-top-proy-section text-center">Proyectos
+            </h2>
+            <div class="row row-cols-1 row-cols-md-2 g-4 margin-to-section-title">
+                <div class="col d-flex justify-content-center ">
+                    <div class="card invisible fix-card-width proyect fix-pointer  fix-font-family-body animate__animated"
+                        data-typeitem="proyect" data-bs-toggle="modal" data-bs-target="#modalSistemaGimnasio">
+                        <img src="./resources/proyectos/sistemagimnasios.PNG" class="card-img-top " alt="...">
+                        <div class="card-body body-card-font-responsive">
+                            <h5 class="card-title title-card-font-responsive">Sistema de administracion de gimnasios </h5>
+                            <p class="card-text">Sistema de administración de gimnasios general desarrollado con .net</p>
+                        </div>
+                        <div class="card-footer text-body-secondary">
+                            <span class="badge htmlcolor badge-font-responsive">Html 5</span>
+                            <span class="badge csscolor badge-font-responsive">Css</span>
+                            <span class="badge text-bg-warning badge-font-responsive">Javascript</span>
+                            <span class="badge netcolor badge-font-responsive">.Net 7</span>
+                            <span class="badge sqlcolor badge-font-responsive">Sql Server</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center ">
+                    <div class="card invisible fix-card-width animate__animated proyect fix-pointer" data-typeitem="proyect"
+                        data-bs-toggle="modal" data-bs-target="#modalConsultora">
+                        <img src="./resources/proyectos/landing.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Landing page para empresa consultora de ventas</h5>
+                            <p class="card-text">Landing page para la empresa CR.Consulting</p>
+                        </div>
+                        <div class="card-footer text-body-secondary">
+                            <span class="badge htmlcolor badge-font-responsive">Html 5</span>
+                            <span class="badge csscolor badge-font-responsive">Css</span>
+                            <span class="badge text-bg-warning badge-font-responsive">Javascript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <div class="card invisible proyect fix-card-width animate__animated fix-pointer" data-typeitem="proyect" data-bs-toggle="modal" data-bs-target="#modalComida">
+                        <img src="./resources//proyectos/comida.webp" class="card-img-top" alt="..." >
+                        <div class="card-body">
+                            <h5 class="card-title">Fontend para cadena de comida rapida</h5>
+                            <p class="card-text">Frontend de aplicacion de comida rapida con pasarela de pago</p>
+                        </div>
+                        <div class="card-footer text-body-secondary">
+                            <span class="badge htmlcolor badge-font-responsive">Html 5</span>
+                            <span class="badge csscolor badge-font-responsive">Css</span>
+                            <span class="badge text-bg-warning badge-font-responsive">Javascript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <div class="card invisible proyect fix-card-width animate__animated fix-pointer" data-typeitem="proyect" data-bs-toggle="modal" data-bs-target="#modalPortafolio">
+                        <img src="./resources/proyectos/portafolio.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Portafolio web para fotografo profesional</h5>
+                            <p class="card-text">Desarrollo del portafolio web de Darío Vargas,personalidad importante
+                                dentro del mundo de la fotografia en Costa Rica.
+                            </p>
+                        </div>
+                        <div class="card-footer text-body-secondary">
+                            <span class="badge htmlcolor badge-font-responsive">Html 5</span>
+                            <span class="badge csscolor badge-font-responsive">Css</span>
+                            <span class="badge text-bg-warning badge-font-responsive">Javascript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="seccionFilosofia"
+            class="d-flex flex-column justify-content-center align-items-center seccion-filosofia">
+            <h2 class="section-title fix-font-family secondary-color-font margin-top-phil-section">Filosofía</h2>
+            <div id="tabContainer" class="tab-container rounded fix-font-family-body">
+                <div class="tab">
+                    <button id="botonMision" class="tablinks rounded" onclick="openTab(event, 'mision')">Misión</button>
+                    <button id="botonVision" class="tablinks rounded" onclick="openTab(event, 'vision')">Visión</button>
+                    <button id="botonValores" class="tablinks rounded"
+                        onclick="openTab(event, 'valores')">Valores</button>
+                </div>
+
+                <!-- Tab content -->
+                <div id="mision" class="tabcontent rounded animate__animated animate__backInRight">
+                    <h3 class="title-philosophy-item text-center">Misión</h3>
+                    <p id="parrafoMision" class="philosophy-text text-center">
+                        Contribuir al desarrollo de soluciones tecnológicas innovadoras, que
+                        mejoren la vida de las personas y las organizaciones colaborando en proyectos que
+                        fomenten un ambiente de trabajo positivo y crecimiento conjunto
+                    </p>
+                </div>
+
+                <div id="vision" class="tabcontent rounded animate__animated animate__backInRight">
+                    <h3 class="title-philosophy-item text-center">Visión</h3>
+                    <p id="parrafoVision" class="philosophy-text text-center">
+                        Ser una desarrolladora líder que no solo solucione problemas tecnológicos,
+                        sino que también anticipe y aborde las necesidades futuras de las empresas
+                        mediante la creación de proyectos sostenibles y escalables que impulsen su éxito a
+                        largo plazo.
+                    </p>
+                </div>
+
+                <div id="valores" class="tabcontent rounded animate__animated animate__backInRight">
+                    <h3 class="title-philosophy-item text-center">Valores</h3>
+                    <p id="parrafoValores" class="philosophy-text text-center">
+                    <ul>
+                        <li>Respeto: Me gusta que exista un ambiente laboral donde todos se sientan
+                            valorados. Estar abierta a escuchar las ideas y opiniones de mis
+                            compañeros, lo que ayuda a que trabajemos juntos de manera colaborativa.</li>
+                        <li>Humuildad: Siempre hay algo nuevo que aprender. Estoy abierta a recibir
+                            sugerencias y críticas constructivas, y disfruto colaborando con otras
+                            personas para mejorar mis habilidades.</li>
+                        <li>Lealtad: Me comprometo a ser una buena profesional, desde el punto de
+                            vista de confianza y objetividad, ayudando a los demás a buscar metas a
+                            nivel grupal sin ningún tipo de individualidad</li>
+                    </ul>
+                    </p>
+                </div>
+        </section>
+        <section id="seccionContacto" class="seccion-contacto d-flex justify-content-center align-items-center flex-column secondary-color-font">
+            <h2 class="section-title fix-font-family secondary-color-font margin-top-cont-section">Contacto</h2>
+            <div class="form-container">
+                <form class="contact-form needs-validation" novalidate>
+                    <div class="row form-row">
+                        <div class="col">
+                            <label for="inputNombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control contact-input primary-color-font" id="inputNombre" 
+                                required>
+                            <div class="invalid-feedback">
+                                Ingresa tu nombre
+                            </div>
+                        </div>
+                        <div class="col">
+                            <label for="inputApellido" class="form-label">Apellido</label>
+                            <input type="text" class="form-control contact-input primary-color-font"
+                                id="inputApellido"  required>
+                            <div class="invalid-feedback">
+                                Ingresa tu apellido
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row form-row">
+                        <div class="col">
+                            <label for="inputEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control contact-input primary-color-font" id="inputEmail"
+                                required >
+                            <div class="invalid-feedback">
+                                Ingresa tu email
+                            </div>
+                        </div>
+                        <div class="col">
+                            <label for="inputTelefono" class="form-label">Telefono</label>
+                            <input type="tel" class="form-control contact-input primary-color-font"
+                                id="inputTelefono" >
+                            <div class="invalid-feedback">
+                                Formato incorrecto
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row form-row">
+                        <div class="col">
+                            <label for="inputDireccion" class="form-label">Dirección</label>
+                            <input type="text" class="form-control contact-input primary-color-font"
+                                id="inputDireccion" >
+                            <div class="invalid-feedback">
+                                Formato incorrecto
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row form-row">
+                        <div class="col">
+                            <label for="inputMensaje" class="form-label">Mensaje</label>
+                            <textarea class="form-control primary-color-font" id="inputMensaje" rows="4"
+                             required></textarea>
+                            <div class="invalid-feedback">
+                                Escribe tu mensaje
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row form-row">
+                        <div class="col d-flex justify-content-center align-items-center">
+                            <button class="btn btn-primary" type="submit">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <div id="whatsAppIconContainer" class="whatsappIconContainer">
+            <a href="https://wa.me/50662791488" target="_blank">
+                <img src="./resources/whatsapp.svg" class="whats-icon" alt="whatsApp icon">
+            </a>
+        </div>
+        <div id="topButtonContainer" class="topButtonContainer text-center">
+            <a  onclick="topFunction()" target="_blank">
+                <img src="./resources//topbutton2.svg" class="top-button-icon" alt="top button icon">
+            </a>
+        </div>
+        <footer class="footer fix-font-family-body secondary-color-font">
+            <div class="row justify-content-center align-items-center">
+                <div class="col d-flex justify-content-end align-items-center">
+                    <a href="https://github.com/yeseniaesqivel/" class="text-end" target="_blank">
+                        <img src="./resources/github.svg" class="footer-image github-footer-icon" alt="icono de github">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="https://www.linkedin.com/in/yessenia-maria-esquivel-benavides-969857336/" target="_blank">
+                        <img src="./resources/linkedin.svg" class="footer-image" alt="icono de linkedin">
+                    </a>
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center responsive-text">
+                    Todos los derechos reservados © Yesenia María Esquivel Benavides
+                </div>
+            </div>
+
+        </footer>
+
+    </main>
+    <div id="modalSistemaGimnasio" class="modal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sistema de administracion de gimnasios</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col col-imagen-descripcion">
+                                <img src="./resources/proyectos/sistemagimnasios.PNG" class="img-deatlles-proyecto" alt="">
+                            </div>
+                        </div>
+                        <div class="row d-flex justify-content-center align-items-center row-tecnologias-detalle-proyecto fix-width-detail-tech">
+                            <div class="col d-flex justify-content-center align-items-center"><span class="badge htmlcolor badge-font-responsive">Html 5</span></div>
+                            <div class="col d-flex justify-content-center align-items-center"><span class="badge csscolor badge-font-responsive">Css</span></div>
+                            <div class="col d-flex justify-content-center align-items-center"><span class="badge text-bg-warning badge-font-responsive">Javascript</span>
+                            </div>
+                            <div class="col d-flex justify-content-center align-items-center"><span class="badge netcolor badge-font-responsive">.Net 7</span>
+                            </div>
+                            <div class="col d-flex justify-content-center align-items-center">
+                                <span class="badge sqlcolor badge-font-responsive">Sql Server</span>
+                            </div>
+                        </div>
+                        <div class="row row-compania rounded">
+                            <div class="col">Compañía</div>
+                            <div class="col">
+                                Proyecto personal
+                            </div>
+                        </div>
+                        <div class="row fix-font-family-body">
+                            <div class="col">
+                                <h4 class="">Descripción del Proyecto</h4>
+                                <p class="descripcion-proyecto">
+                                    
+                                    Diseño y desarrollo de un sistema de administración de gimnasios
+                                    como parte de un proyecto universitario.
+                                    Esta pensado para gestionar todos los procesos de un gimnasio, desde el manejo de usuarios
+                                    hasta el control maquinaria de ejecicio. Características Principales:
+
+                                </p>
+                                <ul>
+                                    <li>
+                                        Autenticación: registro y autenticacion de usuarios del gimnasio.Permite crear cuentas para
+                                        los clientes y personal para que puedan acceder a su informacion de entrenamiento o a su perfil 
+                                        administrativo segun corresponda.Soporta diferentes roles de usuario
+                                    </li>
+                                    <li>
+                                        Gestion de citas: Permite registrar las citas de entenamiento y de medicion de los clientes asi como
+                                        reagendarlas en caso de ser necesario
+                                    </li>
+                                    <li>
+                                        Sistema de notificacion: Envia recordatorios a los clientes sobre su citas proximas dias antes de la cita 
+
+                                    </li>
+                                    <li>
+                                        Registro y control de maquinaria de ejercicio: registra nueva maquinaria de ejercicio permite la administración
+                                        total sobre los equipos existentes de manera flexible e intuitiva.
+                                    </li>
+                                    <li>
+                                        Gestión de rutinas de ejercicio: registra las rutinas personalizdas diseñadas por los instructores,
+                                        dando tambien la posibilidad de modificarlas con facilidad y adadptarlas a las necesidades de los clientes
+
+                                    </li>
+                                    <li>
+                                        Gestion de personal: registra a tu plantilla de personal de forma eficiente y rapida
+
+                                    </li>
+                                    <li>
+                                        Diseño Visual Personalizado: Uso de colores y tipografías que refuercen la
+                                        identidad
+                                        de marca de la consultora, con gráficos y animaciones sutiles para captar la
+                                        atención del visitante.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modalConsultora" class="modal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sistema de administracion de gimnasios</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col col-imagen-descripcion">
+                                <img src="./resources/proyectos/landing.webp" class="img-deatlles-proyecto" alt="">
+                            </div>
+                        </div>
+                        <div class="row d-flex justify-content-center align-items-center row-tecnologias-detalle-proyecto">
+                            <div class="col d-flex justify-content-center align-items-center"><span class="badge htmlcolor badge-font-responsive">Html 5</span></div>
+                            <div class="col d-flex justify-content-center align-items-center"><span class="badge csscolor badge-font-responsive">Css</span></div>
+                            <div class="col d-flex justify-content-center align-items-center"><span class="badge text-bg-warning badge-font-responsive">Javascript</span>
+                            </div>
+                        </div>
+                        <div class="row row-compania rounded">
+                            <div class="col">Compañía</div>
+                            <div class="col">
+                                CR.Consulting
+                            </div>
+                        </div>
+                        <div class="row fix-font-family-body">
+                            <div class="col">
+                                <h4 class="">Descripción del Proyecto</h4>
+                                <p class="descripcion-proyecto">
+                                    
+                                    Diseño y desarrollo de una landing page profesional
+                                    para la consultora de ventas CR.Consulting especializada en modelo de venta B2C
+                                    (Business to consumer)
+                                    . La página está diseñada para captar clientes potenciales, destacar los
+                                    servicios de la consultora y reflejar una imagen moderna y confiable.
+
+                                    Características Principales:
+
+                                </p>
+                                <ul>
+                                    <li>
+                                        Diseño Responsive: Optimización para dispositivos móviles, tabletas y
+                                        computadoras
+                                        de escritorio, asegurando una experiencia de usuario consistente en cualquier
+                                        plataforma.
+                                    </li>
+                                    <li>
+                                        Sección de Servicios: Presentación detallada de las áreas de especialización,
+                                        como
+                                        capacitación en ventas, estrategias de mercado y análisis de KPI.
+                                    </li>
+                                    <li>
+                                        Llamados a la Acción (CTAs): Ubicados estratégicamente para fomentar el contacto
+                                        y
+                                        la conversión, incluyendo formularios de consulta y botones para agendar
+                                        reuniones.
+
+                                    </li>
+                                    <li>
+                                        Testimonios de Clientes: Espacio dinámico para resaltar historias de éxito de
+                                        clientes anteriores, generando confianza y credibilidad.
+                                    </li>
+                                    <li>
+                                        Integración de Formularios: Formulario de contacto funcional con notificaciones
+                                        por
+                                        correo electrónico para solicitudes directas.
+                                    </li>
+                                    <li>
+                                        SEO Básico: Optimización inicial para motores de búsqueda, con uso de etiquetas
+                                        meta, estructura semántica y carga rápida.
+
+                                    </li>
+                                    <li>
+                                        Diseño Visual Personalizado: Uso de colores y tipografías que refuercen la
+                                        identidad
+                                        de marca de la consultora, con gráficos y animaciones sutiles para captar la
+                                        atención del visitante.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modalComida" class="modal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Frontend para empresa de comida rápida</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col col-imagen-descripcion">
+                                <img src="./resources/proyectos/comida.webp" class="img-deatlles-proyecto" alt="">
+                            </div>
+                        </div>
+                        <div class="row d-flex justify-content-center align-items-center row-tecnologias-detalle-proyecto">
+                            <div class="col d-flex justify-content-center align-items-center"><span class="badge htmlcolor badge-font-responsive">Html 5</span></div>
+                            <div class="col d-flex justify-content-center align-items-center"><span class="badge csscolor badge-font-responsive">Css</span></div>
+                            <div class="col d-flex justify-content-center align-items-center"><span class="badge text-bg-warning badge-font-responsive">Javascript</span>
+                            </div>
+                        </div>
+                        <div class="row row-compania rounded">
+                            <div class="col">Compañía</div>
+                            <div class="col">
+                                Delicious Express
+                            </div>
+                        </div>
+                        <div class="row fix-font-family-body">
+                            <div class="col">
+                                <h4 class="">Descripción del Proyecto</h4>
+                                <p class="descripcion-proyecto">
+                                    
+                                    Este proyecto consiste en el diseño y desarrollo del frontend de una tienda de comida rápida en línea.
+                                     La página está diseñada para atraer clientes, mostrar de manera efectiva el menú disponible y ofrecer una experiencia 
+                                     de usuario ágil y moderna que fomente pedidos en línea.
+
+                                    Características Principales:
+
+                                </p>
+                                <ul>
+                                    <li>
+                                        Diseño Responsive:
+                                        Optimización para dispositivos móviles, tabletas y computadoras de escritorio, asegurando que los usuarios puedan navegar y
+                                        realizar pedidos cómodamente desde cualquier dispositivo.
+                                    </li>
+                                    <li>
+                                        Sección de Menú Interactivo:
+                                        Presentación visual del menú con imágenes de alta calidad, descripciones detalladas de los platos y precios. 
+                                        Incluye categorías organizadas como hamburguesas, pizzas, bebidas y postres para facilitar la navegación.
+                                    </li>
+                                    <li>
+                                        Botones estratégicamente colocados como "Realizar Pedido", "Ofertas del Día" y "Contactar Soporte", 
+                                        diseñados para maximizar las conversiones.
+                                    </li>
+                                    <li>
+                                        Integración de Pedidos en Línea:
+                                        Sistema funcional para seleccionar productos, agregar al carrito y proceder al pago, con opciones de personalización 
+                                        (como elegir ingredientes o tamaños) y soporte para múltiples métodos de pago.
+                                    </li>
+                                    <li>
+                                        Espacio dedicado a mostrar ofertas especiales, combos populares y descuentos, con diseño llamativo para captar la atención del usuario.
+                                    </li>
+                                    <li>
+                                        SEO Básico: Optimización inicial para motores de búsqueda, con uso de etiquetas
+                                        meta, estructura semántica y carga rápida.
+
+                                    </li>
+                                    <li>
+                                        Sección para mostrar reseñas y valoraciones de clientes satisfechos, reforzando la confianza en el servicio.
+                                    </li>
+                                    <li>
+                                        Capacidad para ofrecer la página en múltiples idiomas, adaptándose a la base de clientes locales e internacionales.
+
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modalPortafolio" class="modal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Portafolio para fotografo profesional</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col col-imagen-descripcion">
+                                <img src="./resources/proyectos/portafolio.webp" class="img-deatlles-proyecto" alt="">
+                            </div>
+                        </div>
+                        <div class="row d-flex justify-content-center align-items-center row-tecnologias-detalle-proyecto">
+                            <div class="col d-flex justify-content-center align-items-center"><span class="badge htmlcolor badge-font-responsive">Html 5</span></div>
+                            <div class="col d-flex justify-content-center align-items-center"><span class="badge csscolor badge-font-responsive">Css</span></div>
+                            <div class="col d-flex justify-content-center align-items-center"><span class="badge text-bg-warning badge-font-responsive">Javascript</span>
+                            </div>
+                        </div>
+                        <div class="row row-compania rounded">
+                            <div class="col">Compañía</div>
+                            <div class="col">
+                                Darío Vargas
+                            </div>
+                        </div>
+                        <div class="row fix-font-family-body">
+                            <div class="col">
+                                <h4 class="">Descripción del Proyecto</h4>
+                                <p class="descripcion-proyecto">
+                                    
+                                    Este proyecto consiste en el diseño y desarrollo de una landing page profesional para Dario Vargas, 
+                                    un fotógrafo especializado en capturar momentos únicos y crear experiencias visuales impactantes. 
+                                    La página está diseñada para presentar su portafolio, destacar sus servicios y permitir a los clientes
+                                    potenciales contactar y contratar sus servicios de manera sencilla.
+
+                                    Características Principales:
+
+                                </p>
+                                <ul>
+                                    <li>
+                                        Diseño Responsive:  
+                                        Optimización para dispositivos móviles, tabletas y computadoras de escritorio, asegurando que los visitantes puedan explorar el portafolio desde cualquier dispositivo con una experiencia consistente.
+                                    </li>
+                                    <li>
+                                        Galería Interactiva:  
+                                        Sección destacada con una galería de alta calidad, organizada por categorías como bodas, retratos, fotografía de productos y naturaleza, para resaltar el trabajo de Dario Vargas.
+                                    </li>
+                                    <li>
+                                        Llamados a la Acción (CTAs):  
+                                        Botones estratégicamente ubicados como "Solicitar Cotización", "Explorar Portafolio" y "Reservar Sesión", diseñados para maximizar la conversión de visitantes en clientes.
+                                    </li>
+                                    <li>
+                                        Testimonios de Clientes:  
+                                        Espacio dedicado a mostrar reseñas de clientes satisfechos, reforzando la confianza y credibilidad en el trabajo de Dario.
+                                    </li>
+                                    <li>
+                                        Formulario de Contacto:  
+                                        Integración de un formulario funcional que permite a los clientes enviar consultas directamente, con notificaciones por correo electrónico para facilitar la comunicación.
+                                    </li>
+                                    <li>
+                                        Blog Inspiracional:  
+                                        Sección opcional para compartir artículos relacionados con fotografía, historias detrás de las imágenes y consejos para clientes, ayudando a construir una conexión emocional con la audiencia.
+                                    </li>
+                                    <li>
+                                        SEO Básico:  
+                                        Optimización inicial para motores de búsqueda mediante el uso de etiquetas meta, estructura semántica y tiempos de carga rápidos para mejorar la visibilidad en línea.
+                                    </li>
+                                    <li>
+                                        Diseño Visual Personalizado:  
+                                        Uso de colores y tipografías que reflejen la identidad y estilo artístico de Dario Vargas, junto con gráficos y animaciones sutiles que mejoren la experiencia visual del visitante.
+                                    </li>
+                                </ul>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/basejs.js"></script>
+</body>
+
+</html>
